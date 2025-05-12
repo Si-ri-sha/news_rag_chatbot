@@ -8,6 +8,7 @@ Built with FastAPI (Python), React + Tailwind CSS, Chroma vector store, Redis se
 ## 📁 Project Structure
 
 project-root/
+
 ├── backend/ # FastAPI + RAG pipeline
 │ ├── articles.json # Ingested news articles
 │ ├── fetch_articles.py # Fetches raw articles from NewsAPI
@@ -16,6 +17,7 @@ project-root/
 │ ├── main.py # FastAPI app with /chat, /history, /reset_session
 │ ├── requirements.txt # Python dependencies
 │ └── .env # ENV vars (REDIS_URL, GEMINI_API_KEY)
+
 ├── frontend/ # React + Tailwind chatbot UI
 │ ├── public/
 │ ├── src/
@@ -23,6 +25,7 @@ project-root/
 │ │ └── ChatScreen.js
 │ ├── package.json
 │ └── tailwind.config.js
+
 ├── chroma_db/ # On-disk Chroma store
 ├── chroma_store/ # (optional backup)
 ├── articles/ # Raw .txt article excerpts
