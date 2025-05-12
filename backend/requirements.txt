@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+redis
+jina
+qdrant-client
+news-please
+requests
+python-dotenv
