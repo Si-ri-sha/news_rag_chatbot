@@ -16,3 +16,4 @@ chroma_store/
 
 # VSCode settings 
 .vscode/
+node_modules
