@@ -1,0 +1,20 @@
+{
+  "name": "news_rag_chatbot",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://si-ri-sha.github.io/news_rag_chatbot",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
